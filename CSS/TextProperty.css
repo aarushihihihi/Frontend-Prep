@@ -1,0 +1,36 @@
+h1{
+
+    /* text-align : left/start ; right/end; center ; justify*/
+    text-align: center;
+    letter-spacing: 15px;
+font-size: 2cm;
+    /* text-decoration : underline ; overline ; line-through ; none */
+            text-decoration: double red line-through;
+    text-decoration-style: wavy;
+}
+
+p{
+    /* 100-900 ; 400 by default*/
+        text-decoration: double red line-through;
+font-family: Aerial;
+
+    font-weight: lighter;
+    /* line-height: 0.2; */
+    letter-spacing: 10px;
+}
+
+
+/* Line height : controls height of line of text
+
+line height : normal
+line-height : 2.5 *normal
+
+
+
+letter spacing : controls horizontal spacing behavior between text characters
+letter-spacing: normal ; letter-spacing : 10px
+*/
+
+
+
+/*   Font-family :  cssfontstack.com /*

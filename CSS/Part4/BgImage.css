@@ -1,0 +1,16 @@
+div{
+    height: 1400px;
+    width: 500px;
+    background-color: rgb(116, 209, 116);
+    border: 2px solid red;
+    background-image: url("moun.avif");
+
+
+    /* 
+    contain  : repeat based on element h & width
+    cover : image cropped
+    auto : stretched image & blurred
+    
+    */
+    background-size: cover;
+}

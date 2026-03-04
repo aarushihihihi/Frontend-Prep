@@ -1,0 +1,24 @@
+h2{
+    /* color: rgb(148, 111, 41); */
+    color: #faa;
+}
+p{
+    background-color: rgb(255,255,0);
+    color: rgb(0,255,255);
+    color:#00ff00;
+}
+
+button{
+    /* background-color:rgb(0,0,255); */
+    color: rgb(120,0,120);
+}
+
+
+
+/* 
+
+green(0,255,0)
+
+red is rgb(255,0,0)  r+g = yellow
+blue (0,0,255)  r+b = purple 
+*/

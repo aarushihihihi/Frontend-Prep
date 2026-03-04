@@ -1,0 +1,23 @@
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.div{
+    border: 2px solid green;
+    background-color: pink;
+}
+
+.purple{
+    color: purple;
+}
+
+
+#btnS{
+    color: white;
+    background-color: blue;
+    
+}

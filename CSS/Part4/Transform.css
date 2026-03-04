@@ -1,0 +1,49 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    background: rgb(87, 168, 87);
+}
+
+div:nth-of-type(2n){
+    background-color: rgb(169, 123, 36);
+}
+
+
+div:nth-of-type(3n){
+    background-color: rgb(229, 229, 87);
+}
+#one{
+    /* rotate */
+    transform: rotate(45deg);  
+}
+
+#two{
+
+    /* scale   --- 2d and 3 d plane both*/
+    /* transform: scale(1.5 ,5.5); */
+    transform: scaleX(0.5);
+}
+
+#three{
+
+    /* translate  2d plane only */
+     transform: translate(100px,200px) ; 
+    /* transform: translateX(200px); */
+}
+
+#four{
+
+    transform: skew(50deg);
+
+}
+
+#five{
+    transform: skew(30deg) translateY(300px) translateX(300px);
+}

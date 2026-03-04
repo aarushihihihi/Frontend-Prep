@@ -1,0 +1,191 @@
+*{    /* Universal selector*/
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color: rgb(42, 15, 15);
+    background-color: yellow !important;
+}
+
+
+h1,button{     /*Element Selector*/
+    color: red;
+}
+#login{        /* ID Selector*/
+    color: white;
+    background-color: red;
+}
+
+#signup{     /* ID Selector*/
+    color: white;
+    background-color: blue;
+}
+
+.upvote{      /* Class Selector*/
+    color: white;
+    background-color: green;
+}
+ 
+p  a{     /*  Descendent selector */
+    color: rgb(168, 16, 176);
+}
+
+
+
+li a{      /*  Descendent selector */
+    color: rgb(100, 144, 219);
+}
+
+
+nav ul li {    /*  Descendent selector 
+    mulitple levels ; better than child
+    
+    */
+    color: blueviolet;
+}
+
+
+
+
+
+/* Adjacent Sibling Combinator 
+
+comes immediatley after
+
+*/
+
+p + h3{
+    color: rgb(9, 12, 204);
+}
+
+button + button {
+    color : white;
+    background-color: black;
+}
+
+
+
+/* Child combinator --- 
+selects all buttons which are direct children of spams 
+direct one level inside
+*/
+
+
+span > button {
+color:turquoise
+
+}
+
+span > button {
+color:turquoise
+
+}
+
+div > input {
+color: white;
+background-color: yellowgreen;
+
+}
+
+
+/* Attribute Selector : selects elements based 
+on presence or value of given attribute 
+
+
+
+
+*/
+
+input[type="password"] {
+    color: black;
+}
+
+input[type] {
+    background-color: rgb(175, 201, 201);
+}
+
+
+#myId {
+
+    color: green;
+}
+
+
+
+/* Pseudo Class : 
+ 
+keyword added to selector that specifies a special state of selected elements
+
+
+*/
+
+button:hover{
+    color: green;
+    background-color: #fff;
+}
+
+
+button:active{
+    background-color: purple;
+    color: #ffffff;
+}
+
+
+input[type="radio"]:checked +label{
+    color:green
+}
+
+.post:nth-of-type(n){
+    background-color: tomato;
+}
+
+
+
+/* Pseudo Element : lets to style a specific part*/
+
+
+
+h1::first-letter{
+    color: blueviolet;
+}
+
+#myId::first-line{
+    color: rgb(188, 64, 173);
+}
+
+*::selection{
+background-color: rgb(251, 251, 135);
+}
+
+
+
+
+/*Selector Specificity ::after
+
+algo that calculates the weight that is applied to given css declarations
+
+inline css > !important > id >> class,attribute & pseudo-class > element &pseudo-element5
+
+
+1.) inline css> id > class > element 
+
+2.) more selectors more specificity
+
+3.) if specificity same == check with cascading
+
+https://coolors.co/  ---for color combinations
+
+https://mycolor.space/
+
+*/
+
+
+
+div{
+    background-color: blue;
+}
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;   /* inheritance */
+}

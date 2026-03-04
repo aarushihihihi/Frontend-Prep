@@ -1,0 +1,8 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+
+    /* box-shadow : x-offset y-offset blur-radius color */
+    box-shadow: 10px 10px 10px black;
+}

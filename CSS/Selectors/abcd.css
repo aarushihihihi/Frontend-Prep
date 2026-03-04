@@ -1,0 +1,23 @@
+.outer{
+background-color: pink;
+height: 400px;
+margin: 50px;
+font-size: 30px;
+}
+
+h1{
+    border: 2px solid black;
+}
+
+.inner{
+    background-color: rgb(139, 139, 237);
+    height: 100px;
+    width: 100px;
+    margin-left: 10%;
+
+    font-size: 2em;
+    padding: 2em;
+}
+
+
+/* //snowball effect in nested elements */

@@ -1,0 +1,23 @@
+
+
+.card{
+    display: inline-block;
+    border: 5px solid black;
+    box-shadow:2px 4px 10px black;
+    margin: 10px;
+    border-radius: 15px;
+    transition: 5s;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.desc{
+    padding: 0 2px 0 2px;
+}
+
+.card:hover{
+    box-shadow: 3px 4px 50px grey;
+
+}

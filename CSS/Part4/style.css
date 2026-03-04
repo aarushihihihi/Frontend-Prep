@@ -1,0 +1,22 @@
+div{
+height: 200px;
+width: 200px;
+background: #ff000080;
+}
+
+/* aplha --- opacity of color */
+
+#opacity{
+    background-color: green;
+    opacity: 0;
+}
+
+
+
+/* 
+
+alpha -- manipualte only color
+opacity - will manipualte other elements also
+
+
+*/

@@ -1,0 +1,29 @@
+.product{
+    border: 2px solid blue;
+    /* display: flex; */
+    padding: 3px;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.desc{
+margin-inline-start: auto;}
+
+.tab{
+    padding:2px;
+    margin-top: 10px;
+}
+
+.card{
+    border: 2px solid gray;
+    height: 300px;
+    width: 250px;
+    /* display: flex; */
+}
+
+.all-card{
+    display: flex;
+    gap:20px;
+}
